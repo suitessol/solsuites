@@ -1,30 +1,47 @@
-# Interactive building site
+## 🏢 Overview
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**SUITES** is a gamified digital real estate platform built on the Solana blockchain. This interactive site allows users to explore a virtual high-rise building where every floor and room can be owned, rented, or traded using the native $SUITES token.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/senzsosm-gmailcoms-projects/v0-interactive-building-site)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LGEWqAqHaUI)
+### Core Features:
+- **Buy & Sell Virtual Real Estate**  
+  Purchase apartments, luxury units, or penthouses in a pixel-styled skyscraper.
 
-## Overview
+- **Earn Passive Income**  
+  Rent out your digital property and collect daily $SUITES token earnings.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **Track Market Trends**  
+  View pricing data, rental yields, and building floor tiers in real-time.
 
-## Deployment
+- **$SUITES Token Utility**  
+  The $SUITES token powers property purchases, rental payments, and governance (coming soon).
 
-Your project is live at:
+---
 
-**[https://vercel.com/senzsosm-gmailcoms-projects/v0-interactive-building-site](https://vercel.com/senzsosm-gmailcoms-projects/v0-interactive-building-site)**
+## 💰 Property Tiers & Pricing
 
-## Build your app
+| Tier       | Floor Range | Price Range      |
+|------------|-------------|------------------|
+| Basic      | Floors 1–7  | 500–1000 $SUITES |
+| Standard   | Floors 8–15 | 1000–2000 $SUITES|
+| Premium    | Floors 16–19| 2000–3000 $SUITES|
+| Luxury     | Floors 20–24| 3000–5000 $SUITES|
+| Penthouse  | Floor 25    | 5000–8000 $SUITES|
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/LGEWqAqHaUI](https://v0.dev/chat/projects/LGEWqAqHaUI)**
+## 🔮 Coming Soon
 
-## How It Works
+- **Governance**: Vote on platform upgrades and new building expansions  
+- **Staking**: Earn additional rewards by staking your $SUITES  
+- **Metaverse Integration**: Walk through and customize your owned spaces  
+- **Multi-Building Expansion**: New towers with unique themes and layouts
+- 
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 📄 Documentation
+
+Full whitepaper and platform documentation on [GitBook](https://suites.gitbook.io/suites).
+
+---
+
+© 2025 SUITES on Solana. All rights reserved.
