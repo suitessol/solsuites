@@ -545,8 +545,8 @@ const generateFloorLayout = (floorNumber: number, suiteId: number) => {
 // Custom elevator component with up and down arrows
 const ElevatorIcon = () => (
   <div className="flex flex-col items-center justify-center space-y-1">
-    <ArrowUpIcon className="h-3 w-3 text-[#4e8eca]" />
-    <ArrowDownIcon className="h-3 w-3 text-[#4e8eca]" />
+    <ArrowUpIcon className="h-3 w-3 text-black" />
+    <ArrowDownIcon className="h-3 w-3 text-black" />
   </div>
 )
 
@@ -554,7 +554,7 @@ const ElevatorIcon = () => (
 const getCellTypeStyle = (cell: any) => {
   switch (cell.type) {
     case "elevator":
-      return "bg-[#4e8eca] text-white"
+      return "bg-[#a4c2e0] text-black flex items-center justify-center"
     case "stairs":
       return "bg-[#a4c2e0] text-black"
     case "hallway":
@@ -571,7 +571,7 @@ const getCellTypeContent = (cell: any) => {
   if (cell.type === "elevator") {
     return <ElevatorIcon />
   } else if (cell.type === "stairs") {
-    return <StairsIcon className="h-6 w-6 text-[#4e8eca]" />
+    return <StairsIcon className="h-6 w-6 text-black" />
   } else if (cell.type === "room") {
     if (cell.isAvailable) {
       return <span className="font-press-start text-xs">AVAILABLE</span>
