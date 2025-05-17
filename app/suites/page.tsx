@@ -171,15 +171,17 @@ const getRandomOwner = (isAvailable) => {
     return "On Sale!"
   }
 
-  // Generate a random Ethereum-like address
-  const chars = "0123456789abcdef"
-  let address = "0x"
-  for (let i = 0; i < 40; i++) {
+  // Generate a random Solana-like address
+  const chars = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+  let address = ""
+  // Generate a random length between 32-44 characters (typical for Solana addresses)
+  const length = Math.floor(Math.random() * 12) + 32
+  for (let i = 0; i < length; i++) {
     address += chars[Math.floor(Math.random() * chars.length)]
   }
 
-  // Format as 0x1234...5678
-  return `${address.substring(0, 6)}...${address.substring(38)}`
+  // Format as XXXX...XXXX
+  return `${address.substring(0, 4)}...${address.substring(address.length - 4)}`
 }
 
 // Generate floor layouts with realistic room arrangements and L-shaped rooms
