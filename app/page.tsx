@@ -27,7 +27,7 @@ export default function HomePage() {
   const [copied, setCopied] = useState(false)
 
   // Contract address
-  const contractAddress = "COMING SOON! CHECK X"
+  const contractAddress = "GqYEwNvr72kcvfQqKoa5yxwAnS8dfjuZ5DXzdERbpump"
 
   // Copy contract address to clipboard
   const copyToClipboard = () => {
@@ -574,7 +574,7 @@ export default function HomePage() {
                       <StarIcon className="h-5 w-5 text-[#F0F0F0]" />
                     </div>
                     <div>
-                      <h4 className="font-press-start mb-1 text-md text-[#F0F0F0]">REWARDS PROGRAM</h4>
+                      <h4 className="font-press-start mb-1 text-md text-[#F0FෝF0]">REWARDS PROGRAM</h4>
                       <p className="font-press-start text-xs text-[#F0F0F0]">
                         Earn special rewards for long-term holding and community participation
                       </p>
