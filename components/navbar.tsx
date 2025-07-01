@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <div className="flex items-center space-x-4">
               <Link
-                href="/#what-is-suites"
+                href="/#what-is-tower"
                 className="font-press-start px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] transition-colors"
               >
                 About
@@ -47,7 +47,7 @@ export default function Navbar() {
                 Building
               </Link>
               <Link
-                href="https://suites.gitbook.io/suites"
+                href="https://pyra-1.gitbook.io/trench-tower-docs/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-press-start px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] transition-colors flex items-center"
@@ -88,7 +88,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <Link
-              href="/#what-is-suites"
+              href="/#what-is-tower"
               className="font-press-start block px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2]"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -109,7 +109,7 @@ export default function Navbar() {
               Building
             </Link>
             <Link
-              href="https://suites.gitbook.io/suites"
+              href="https://pyra-1.gitbook.io/trench-tower-docs/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-press-start block px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] flex items-center"

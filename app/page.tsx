@@ -247,7 +247,7 @@ export default function HomePage() {
         </div>
 
         {/* What is SUITES Section */}
-        <div id="what-is-suites" className="mb-16 w-full max-w-6xl relative">
+        <div id="what-is-tower" className="mb-16 w-full max-w-6xl relative">
           {/* Multi-layered border effect */}
           <div className="absolute inset-0 bg-[#4e8eca] translate-x-4 translate-y-4 rounded-lg"></div>
           <div className="absolute inset-0 bg-[#2C4270] translate-x-2 translate-y-2 rounded-lg"></div>
@@ -559,7 +559,7 @@ export default function HomePage() {
 
                   <div className="bg-[#132B50] p-4 rounded-lg flex items-start pixel-border border-2 border-[#4e8eca]">
                     <div className="mr-3 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[#6A30C2] border border-[#2C0E61]">
-                      <ZapIcon className="h-5 w-5 text-[#F0F0F0]" />
+                      <ZapIcon className="h-5 w-5 text-[#F0FෝF0]" />
                     </div>
                     <div>
                       <h4 className="font-press-start mb-1 text-md text-[#F0F0F0]">NFT UPGRADES</h4>
