@@ -197,7 +197,7 @@ export default function HomePage() {
               Buy, rent, and trade virtual properties on Solana
             </p>
             <Link
-              href="/suites"
+              href="/tower"
               className="pixel-button inline-flex items-center border-4 border-[#2C0E61] px-8 py-4 font-press-start text-xl text-[#F0F0F0] transition-all hover:bg-[#7A40D2] shadow-[0_4px_0_#4C1C88]"
             >
               EXPLORE BUILDING <ArrowRightIcon className="ml-2 h-5 w-5" />
@@ -844,7 +844,7 @@ export default function HomePage() {
             <h2 className="font-press-start mb-4 text-2xl font-bold text-[#F0F0F0]">START YOUR REAL ESTATE EMPIRE</h2>
             <p className="font-press-start mb-6 text-lg text-[#F0F0F0]">1000 $TOWER TOKENS WAITING FOR NEW PLAYERS</p>
             <Link
-              href="/suites"
+              href="/tower"
               className="pixel-button inline-flex items-center border-4 border-[#4e8eca] bg-[#6A30C2] px-8 py-4 font-press-start text-xl text-[#F0F0F0] transition-all hover:bg-[#7A40D2] shadow-[0_4px_0_#4C1C88]"
             >
               EXPLORE BUILDING <ArrowRightIcon className="ml-2 h-5 w-5" />
@@ -854,6 +854,15 @@ export default function HomePage() {
 
         {/* Footer */}
         <footer className="w-full max-w-6xl py-6 text-center">
+          <div className="mb-4 flex justify-center">
+            <Image
+              src="/trench-tower-nav-logo.png"
+              alt="TRENCH TOWER"
+              width={120}
+              height={30}
+              className="pixelated opacity-70"
+            />
+          </div>
           <p className="font-press-start text-sm text-[#1a1a2e]/70">© 2025 SOLANA TRENCH TOWER. ALL RIGHTS RESERVED.</p>
         </footer>
       </div>

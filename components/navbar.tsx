@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/trench-tower-logo.png"
+                src="/trench-tower-nav-logo.png"
                 alt="TRENCH TOWER"
                 width={180}
                 height={40}
@@ -41,7 +41,7 @@ export default function Navbar() {
                 $TOWER
               </Link>
               <Link
-                href="/suites"
+                href="/tower"
                 className="font-press-start px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] transition-colors"
               >
                 Building
@@ -55,7 +55,7 @@ export default function Navbar() {
                 Gitbook <BookOpen className="ml-1 h-4 w-4" />
               </Link>
               <Link
-                href="https://x.com/suitessol"
+                href="https://x.com/TrenchTower"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-press-start px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] transition-colors flex items-center"
@@ -102,7 +102,7 @@ export default function Navbar() {
               $TOWER
             </Link>
             <Link
-              href="/suites"
+              href="/tower"
               className="font-press-start block px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2]"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -118,7 +118,7 @@ export default function Navbar() {
               Gitbook <BookOpen className="ml-1 h-4 w-4" />
             </Link>
             <Link
-              href="https://x.com/suitessol"
+              href="https://x.com/TrenchTower"
               target="_blank"
               rel="noopener noreferrer"
               className="font-press-start block px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] flex items-center"
