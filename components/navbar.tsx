@@ -15,7 +15,13 @@ export default function Navbar() {
           {/* Logo and brand */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image src="/logo3.png" alt="SUITES" width={180} height={40} className="pixelated h-10 w-auto" />
+              <Image
+                src="/trench-tower-logo.png"
+                alt="TRENCH TOWER"
+                width={180}
+                height={40}
+                className="pixelated h-10 w-auto"
+              />
             </Link>
           </div>
 
@@ -29,10 +35,10 @@ export default function Navbar() {
                 About
               </Link>
               <Link
-                href="/#suites-token"
+                href="/#trench-tower-token"
                 className="font-press-start px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2] transition-colors"
               >
-                $SUITES
+                $TOWER
               </Link>
               <Link
                 href="/suites"
@@ -89,11 +95,11 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="/#suites-token"
+              href="/#trench-tower-token"
               className="font-press-start block px-3 py-2 text-[#F0F0F0] hover:text-[#6A30C2]"
               onClick={() => setIsMenuOpen(false)}
             >
-              $SUITES
+              $TOWER
             </Link>
             <Link
               href="/suites"

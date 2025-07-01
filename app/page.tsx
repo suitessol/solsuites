@@ -27,7 +27,7 @@ export default function HomePage() {
   const [copied, setCopied] = useState(false)
 
   // Contract address
-  const contractAddress = "GqYEwNvr72kcvfQqKoa5yxwAnS8dfjuZ5DXzdERbpump"
+  const contractAddress = "COMING SOON! FOLLOW ON X."
 
   // Copy contract address to clipboard
   const copyToClipboard = () => {
@@ -180,8 +180,8 @@ export default function HomePage() {
           <div className="flex flex-col items-start">
             <div className="mb-6 w-full max-w-xs">
               <Image
-                src="/logo2.png"
-                alt="SUITES"
+                src="/trench-tower-logo.png"
+                alt="TRENCH TOWER"
                 width={200}
                 height={200}
                 priority
@@ -259,23 +259,23 @@ export default function HomePage() {
             </div>
 
             <h2 className="font-press-start mb-8 text-center text-4xl font-bold text-[#F0F0F0] tracking-wider">
-              WHAT IS SUITES?
+              WHAT IS TRENCH TOWER?
             </h2>
 
             <div className="space-y-6">
               <p className="font-press-start text-lg text-[#F0F0F0] leading-relaxed">
-                SUITES IS A DIGITAL REAL ESTATE PLATFORM BUILT ON THE SOLANA BLOCKCHAIN THAT ALLOWS USERS TO BUY, RENT,
-                AND TRADE VIRTUAL PROPERTIES IN A PIXELATED METAVERSE.
+                TRENCH TOWER IS A DIGITAL REAL ESTATE PLATFORM BUILT ON THE SOLANA BLOCKCHAIN THAT ALLOWS USERS TO BUY,
+                RENT, AND TRADE VIRTUAL PROPERTIES IN A PIXELATED METAVERSE.
               </p>
 
               <p className="font-press-start text-lg text-[#F0F0F0] leading-relaxed">
-                $SUITES TOKEN POWERS THE ENTIRE ECOSYSTEM, ENABLING PROPERTY TRANSACTIONS, PASSIVE INCOME, AND
-                GOVERNANCE RIGHTS FOR TOKEN HOLDERS.
+                $TOWER TOKEN POWERS THE ENTIRE ECOSYSTEM, ENABLING PROPERTY TRANSACTIONS, PASSIVE INCOME, AND GOVERNANCE
+                RIGHTS FOR TOKEN HOLDERS.
               </p>
 
               <p className="font-press-start text-lg text-[#F0F0F0] leading-relaxed">
-                WITH ITS UNIQUE PIXEL ART STYLE AND GAMIFIED EXPERIENCE, SUITES CREATES A FUN AND PROFITABLE WAY TO
-                INVEST IN DIGITAL REAL ESTATE WHILE BUILDING A COMMUNITY OF OWNERS AND INVESTORS.
+                WITH ITS UNIQUE PIXEL ART STYLE AND GAMIFIED EXPERIENCE, TRENCH TOWER CREATES A FUN AND PROFITABLE WAY
+                TO INVEST IN DIGITAL REAL ESTATE WHILE BUILDING A COMMUNITY OF OWNERS AND INVESTORS.
               </p>
 
               <div className="mt-10 flex justify-center">
@@ -283,7 +283,7 @@ export default function HomePage() {
                   href="/token"
                   className="pixel-button inline-flex items-center border-4 border-[#4e8eca] bg-[#6A30C2] px-8 py-4 font-press-start text-xl text-[#F0F0F0] transition-all hover:bg-[#7A40D2] shadow-[0_4px_0_#4C1C88]"
                 >
-                  LEARN MORE ABOUT $SUITES
+                  LEARN MORE ABOUT $TOWER
                 </Link>
               </div>
             </div>
@@ -350,15 +350,15 @@ export default function HomePage() {
                     <div className="space-y-3">
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">FLOOR 1:</span>
-                        <span className="font-press-start text-[#F0F0F0]">500 $SUITES</span>
+                        <span className="font-press-start text-[#F0F0F0]">500 $TOWER</span>
                       </div>
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">FLOORS 8-15:</span>
-                        <span className="font-press-start text-[#F0F0F0]">1500-3000 $SUITES</span>
+                        <span className="font-press-start text-[#F0F0F0]">1500-3000 $TOWER</span>
                       </div>
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">PENTHOUSE:</span>
-                        <span className="font-press-start text-[#F0F0F0]">8000 $SUITES</span>
+                        <span className="font-press-start text-[#F0F0F0]">8000 $TOWER</span>
                       </div>
                     </div>
                   </div>
@@ -389,15 +389,15 @@ export default function HomePage() {
                     <div className="space-y-3">
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">STUDIO:</span>
-                        <span className="font-press-start text-[#F0F0F0]">12 $SUITES/min</span>
+                        <span className="font-press-start text-[#F0F0F0]">12 $TOWER/min</span>
                       </div>
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">STANDARD:</span>
-                        <span className="font-press-start text-[#F0F0F0]">25 $SUITES/min</span>
+                        <span className="font-press-start text-[#F0F0F0]">25 $TOWER/min</span>
                       </div>
                       <div className="flex justify-between items-center">
                         <span className="font-press-start text-[#F0F0F0]">DELUXE:</span>
-                        <span className="font-press-start text-[#F0F0F0]">40 $SUITES/min</span>
+                        <span className="font-press-start text-[#F0F0F0]">40 $TOWER/min</span>
                       </div>
                     </div>
                   </div>
@@ -458,8 +458,8 @@ export default function HomePage() {
         </div>
 
         {/* Token Utility and Roadmap Side by Side */}
-        <div id="suites-token" className="mb-16 w-full max-w-6xl">
-          <h2 className="font-press-start mb-8 text-center text-3xl font-bold text-[#1a1a2e]">$SUITES TOKEN</h2>
+        <div id="trench-tower-token" className="mb-16 w-full max-w-6xl">
+          <h2 className="font-press-start mb-8 text-center text-3xl font-bold text-[#1a1a2e]">$TOWER TOKEN</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Current Utility */}
@@ -491,7 +491,7 @@ export default function HomePage() {
                     <div>
                       <h4 className="font-press-start mb-1 text-md text-[#F0F0F0]">STAKING</h4>
                       <p className="font-press-start text-xs text-[#F0F0F0]">
-                        Earn additional yield by staking your $SUITES tokens
+                        Earn additional yield by staking your $TOWER tokens
                       </p>
                     </div>
                   </div>
@@ -515,7 +515,7 @@ export default function HomePage() {
                     <div>
                       <h4 className="font-press-start mb-1 text-md text-[#F0F0F0]">TRADING</h4>
                       <p className="font-press-start text-xs text-[#F0F0F0]">
-                        Trade $SUITES on decentralized exchanges for other tokens
+                        Trade $TOWER on decentralized exchanges for other tokens
                       </p>
                     </div>
                   </div>
@@ -574,7 +574,7 @@ export default function HomePage() {
                       <StarIcon className="h-5 w-5 text-[#F0F0F0]" />
                     </div>
                     <div>
-                      <h4 className="font-press-start mb-1 text-md text-[#F0FෝF0]">REWARDS PROGRAM</h4>
+                      <h4 className="font-press-start mb-1 text-md text-[#F0F0F0]">REWARDS PROGRAM</h4>
                       <p className="font-press-start text-xs text-[#F0F0F0]">
                         Earn special rewards for long-term holding and community participation
                       </p>
@@ -718,7 +718,7 @@ export default function HomePage() {
 
                   {/* Simplified display */}
                   <div className="absolute top-2 right-2 font-press-start text-[#F0F0F0]">
-                    AVG: {rentalTrend ? "10.2" : "8.5"} $SUITES/day
+                    AVG: {rentalTrend ? "10.2" : "8.5"} $TOWER/day
                   </div>
 
                   {/* Trend indicator */}
@@ -806,27 +806,27 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <div className="bg-[#6A30C2] p-3 flex justify-between items-center pixel-border border-2 border-[#4e8eca]">
                     <p className="font-press-start text-sm text-[#F0F0F0]">PENTHOUSE (FL 25)</p>
-                    <p className="font-press-start text-sm text-[#F0F0F0]">5000-8000 $SUITES</p>
+                    <p className="font-press-start text-sm text-[#F0F0F0]">5000-8000 $TOWER</p>
                   </div>
 
                   <div className="bg-[#6A30C2] p-3 flex justify-between items-center pixel-border border-2 border-[#4e8eca]">
                     <p className="font-press-start text-sm text-[#F0F0F0]">LUXURY (FL 20-24)</p>
-                    <p className="font-press-start text-sm text-[#F0F0F0]">3000-5000 $SUITES</p>
+                    <p className="font-press-start text-sm text-[#F0F0F0]">3000-5000 $TOWER</p>
                   </div>
 
                   <div className="bg-[#6A30C2] p-3 flex justify-between items-center pixel-border border-2 border-[#4e8eca]">
                     <p className="font-press-start text-sm text-[#F0F0F0]">PREMIUM (FL 16-19)</p>
-                    <p className="font-press-start text-sm text-[#F0F0F0]">2000-3000 $SUITES</p>
+                    <p className="font-press-start text-sm text-[#F0F0F0]">2000-3000 $TOWER</p>
                   </div>
 
                   <div className="bg-[#6A30C2] p-3 flex justify-between items-center pixel-border border-2 border-[#4e8eca]">
                     <p className="font-press-start text-sm text-[#F0F0F0]">STANDARD (FL 8-15)</p>
-                    <p className="font-press-start text-sm text-[#F0F0F0]">1000-2000 $SUITES</p>
+                    <p className="font-press-start text-sm text-[#F0F0F0]">1000-2000 $TOWER</p>
                   </div>
 
                   <div className="bg-[#6A30C2] p-3 flex justify-between items-center pixel-border border-2 border-[#4e8eca]">
                     <p className="font-press-start text-sm text-[#F0F0F0]">BASIC (FL 1-7)</p>
-                    <p className="font-press-start text-sm text-[#F0F0F0]">500-1000 $SUITES</p>
+                    <p className="font-press-start text-sm text-[#F0F0F0]">500-1000 $TOWER</p>
                   </div>
                 </div>
               </div>
@@ -842,7 +842,7 @@ export default function HomePage() {
 
           <div className="relative pixel-border border-4 border-[#2C4270] bg-[#1a1a4a] p-8 text-center rounded-lg shadow-[0_0_15px_rgba(76,28,136,0.5)]">
             <h2 className="font-press-start mb-4 text-2xl font-bold text-[#F0F0F0]">START YOUR REAL ESTATE EMPIRE</h2>
-            <p className="font-press-start mb-6 text-lg text-[#F0F0F0]">1000 $SUITES TOKENS WAITING FOR NEW PLAYERS</p>
+            <p className="font-press-start mb-6 text-lg text-[#F0F0F0]">1000 $TOWER TOKENS WAITING FOR NEW PLAYERS</p>
             <Link
               href="/suites"
               className="pixel-button inline-flex items-center border-4 border-[#4e8eca] bg-[#6A30C2] px-8 py-4 font-press-start text-xl text-[#F0F0F0] transition-all hover:bg-[#7A40D2] shadow-[0_4px_0_#4C1C88]"
@@ -854,7 +854,7 @@ export default function HomePage() {
 
         {/* Footer */}
         <footer className="w-full max-w-6xl py-6 text-center">
-          <p className="font-press-start text-sm text-[#1a1a2e]/70">© 2025 SOLANA SUITES. ALL RIGHTS RESERVED.</p>
+          <p className="font-press-start text-sm text-[#1a1a2e]/70">© 2025 SOLANA TRENCH TOWER. ALL RIGHTS RESERVED.</p>
         </footer>
       </div>
     </div>

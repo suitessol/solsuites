@@ -703,7 +703,7 @@ export default function SuitesPage() {
 
           // Show rental income notification every 4th interval (1 minute)
           if (Math.random() > 0.75) {
-            showNotification(`You earned ${totalRental} $SUITES in rental income!`, "success")
+            showNotification(`You earned ${totalRental} $TOWER in rental income!`, "success")
           }
         }
       }, 15000) // Every 15 seconds for demo
@@ -971,7 +971,7 @@ export default function SuitesPage() {
       setIsSellingModalOpen(false)
 
       // Show success message
-      showNotification(`You sold your ${selectedRoom.roomType?.name} for ${sellPrice} $SUITES!`, "success")
+      showNotification(`You sold your ${selectedRoom.roomType?.name} for ${sellPrice} $TOWER!`, "success")
     }
   }
 
@@ -1071,7 +1071,7 @@ export default function SuitesPage() {
                     <div className="font-press-start text-xs text-[#a4c2e0]">BALANCE</div>
                     <div className="font-press-start text-lg text-[#00f0ff] flex items-center justify-center">
                       <CoinsIcon className="h-4 w-4 mr-1" />
-                      {animatedBalance}
+                      {animatedBalance} $TOWER
                     </div>
                   </div>
 
@@ -1091,7 +1091,7 @@ export default function SuitesPage() {
                     <div className="font-press-start text-xs text-[#a4c2e0]">EARNED</div>
                     <div className="font-press-start text-lg text-[#00f0ff] flex items-center justify-center">
                       <TrendingUpIcon className="h-4 w-4 mr-1" />
-                      {totalRentalEarned}
+                      {totalRentalEarned} $TOWER
                     </div>
                   </div>
 
@@ -1170,7 +1170,7 @@ export default function SuitesPage() {
                   <div className="font-press-start text-sm text-[#a4c2e0]">BALANCE</div>
                   <div className="font-press-start text-lg text-[#00f0ff] flex items-center justify-center">
                     <CoinsIcon className="h-4 w-4 mr-1" />
-                    {animatedBalance}
+                    {animatedBalance} $TOWER
                   </div>
                 </div>
                 <div className="text-center">
@@ -1244,7 +1244,7 @@ export default function SuitesPage() {
                   <div className="font-press-start text-sm text-[#a4c2e0]">BALANCE</div>
                   <div className="font-press-start text-lg text-[#00f0ff] flex items-center justify-center">
                     <CoinsIcon className="h-4 w-4 mr-1" />
-                    {animatedBalance}
+                    {animatedBalance} $TOWER
                   </div>
                 </div>
                 <div className="text-center">
@@ -1257,7 +1257,7 @@ export default function SuitesPage() {
                   <div className="font-press-start text-sm text-[#a4c2e0]">EARNED</div>
                   <div className="font-press-start text-lg text-[#00f0ff] flex items-center justify-center">
                     <TrendingUpIcon className="h-4 w-4 mr-1" />
-                    {totalRentalEarned}
+                    {totalRentalEarned} $TOWER
                   </div>
                 </div>
                 <div className="text-center">
@@ -1341,7 +1341,7 @@ export default function SuitesPage() {
                             walletBalance < selectedRoom.price ? "opacity-50 cursor-not-allowed" : "hover:bg-[#7A40D2]"
                           }`}
                         >
-                          BUY FOR {selectedRoom.price} $SUITES
+                          BUY FOR {selectedRoom.price} $TOWER
                         </button>
                       ) : selectedRoom.owner === "You" ? (
                         <button
@@ -1418,7 +1418,7 @@ export default function SuitesPage() {
                     <div className="space-y-2">
                       <div className="flex justify-between">
                         <p className="font-press-start text-sm text-[#a4c2e0]">Sell Price:</p>
-                        <p className="font-press-start text-sm text-[#00f0ff]">{sellPrice} $SUITES</p>
+                        <p className="font-press-start text-sm text-[#00f0ff]">{sellPrice} $TOWER</p>
                       </div>
                       <div className="flex justify-between">
                         <p className="font-press-start text-sm text-[#a4c2e0]">Profit/Loss:</p>
@@ -1467,11 +1467,11 @@ export default function SuitesPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
                     <p className="font-press-start text-xs text-[#a4c2e0]">Total Balance</p>
-                    <p className="font-press-start text-lg text-[#F0F0F0]">{walletBalance} $SUITES</p>
+                    <p className="font-press-start text-lg text-[#F0F0F0]">{walletBalance} $TOWER</p>
                   </div>
                   <div className="text-center">
                     <p className="font-press-start text-xs text-[#a4c2e0]">Total Earned</p>
-                    <p className="font-press-start text-lg text-[#F0F0F0]">{totalRentalEarned} $SUITES</p>
+                    <p className="font-press-start text-lg text-[#F0F0F0]">{totalRentalEarned} $TOWER</p>
                   </div>
                   <div className="text-center">
                     <p className="font-press-start text-xs text-[#a4c2e0]">Income Rate</p>
@@ -1499,7 +1499,7 @@ export default function SuitesPage() {
                           <div className="font-press-start text-xs text-[#a4c2e0]">
                             {new Date(entry.timestamp).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                           </div>
-                          <div className="font-press-start text-sm text-[#00f0ff]">+{entry.amount} $SUITES</div>
+                          <div className="font-press-start text-sm text-[#00f0ff]">+{entry.amount} $TOWER</div>
                         </div>
                       ))
                   ) : (

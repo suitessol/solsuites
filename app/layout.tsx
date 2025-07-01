@@ -14,10 +14,10 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: "SUITES - Digital Real Estate on Solana",
+  title: "TRENCH TOWER - Digital Real Estate on Solana",
   description: "Buy, rent, and trade virtual properties on Solana",
   icons: {
-    icon: "/logo2.png",
+    icon: "/trench-tower-logo.png",
   },
     generator: 'v0.dev'
 }

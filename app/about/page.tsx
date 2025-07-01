@@ -22,12 +22,12 @@ export default function AboutPage() {
             </Link>
           </div>
 
-          <h1 className="font-press-start mb-6 text-3xl font-bold text-[#F0F0F0]">ABOUT SUITES</h1>
+          <h1 className="font-press-start mb-6 text-3xl font-bold text-[#F0F0F0]">ABOUT TRENCH TOWER</h1>
 
           <div className="space-y-4">
             <p className="font-press-start text-[#a4c2e0]">
-              SUITES is a digital real estate platform built on Solana, allowing users to buy, rent, and trade virtual
-              properties.
+              TRENCH TOWER is a digital real estate platform built on Solana, allowing users to buy, rent, and trade
+              virtual properties.
             </p>
 
             <p className="font-press-start text-[#a4c2e0]">

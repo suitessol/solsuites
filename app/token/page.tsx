@@ -22,12 +22,12 @@ export default function TokenPage() {
             </Link>
           </div>
 
-          <h1 className="font-press-start mb-6 text-3xl font-bold text-[#F0F0F0]">$SUITES TOKEN</h1>
+          <h1 className="font-press-start mb-6 text-3xl font-bold text-[#F0F0F0]">$TOWER TOKEN</h1>
 
           <div className="space-y-6">
             <p className="font-press-start text-[#a4c2e0]">
-              $SUITES is the native utility token of the SUITES ecosystem, used for property purchases, rental payments,
-              governance, and staking rewards.
+              $TOWER is the native utility token of the TRENCH TOWER ecosystem, used for property purchases, rental
+              payments, governance, and staking rewards.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
@@ -36,7 +36,7 @@ export default function TokenPage() {
                   <CoinsIcon className="h-8 w-8 text-[#F0F0F0]" />
                 </div>
                 <h3 className="font-press-start mb-2 text-xl text-[#F0F0F0]">TOTAL SUPPLY</h3>
-                <p className="font-press-start text-[#F0F0F0]">100,000,000 $SUITES</p>
+                <p className="font-press-start text-[#F0F0F0]">100,000,000 $TOWER</p>
               </div>
 
               <div className="pixel-border border-4 border-[#4e8eca] rounded-lg bg-gradient-to-r from-[#0f3443]/70 to-[#1a4a6a]/70 p-6 flex flex-col items-center text-center">
@@ -58,7 +58,7 @@ export default function TokenPage() {
                 <div>
                   <h4 className="font-press-start mb-1 text-md text-[#00f0ff]">PROPERTY PURCHASES</h4>
                   <p className="font-press-start text-xs text-[#a4c2e0]">
-                    Buy virtual properties in the SUITES building using $SUITES tokens
+                    Buy virtual properties in the TRENCH TOWER building using $TOWER tokens
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function TokenPage() {
                 <div>
                   <h4 className="font-press-start mb-1 text-md text-[#00f0ff]">RENTAL INCOME</h4>
                   <p className="font-press-start text-xs text-[#a4c2e0]">
-                    Earn passive income in $SUITES from your owned properties
+                    Earn passive income in $TOWER from your owned properties
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function TokenPage() {
                 <div>
                   <h4 className="font-press-start mb-1 text-md text-[#00f0ff]">STAKING REWARDS</h4>
                   <p className="font-press-start text-xs text-[#a4c2e0]">
-                    Stake $SUITES to earn additional yield and exclusive benefits
+                    Stake $TOWER to earn additional yield and exclusive benefits
                   </p>
                 </div>
               </div>
